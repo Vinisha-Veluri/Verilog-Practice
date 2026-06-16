@@ -13,6 +13,7 @@ output reg [2:0]out
             8'b00100000: out=3'b101;
             8'b01000000: out=3'b110;
             8'b10000000: out=3'b111;
+            default: out=3'b000;
         endcase
      end
     
