@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module BCD_Adder(
 input [3:0]a,b,
 input cin,
